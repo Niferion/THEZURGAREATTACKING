@@ -10,13 +10,43 @@
       .MainTitle h1 {
         color: white;
       }
+      .NavBar {
+        background-color: #454545;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: 0;
+      }
+      .NavBar li {
+        float: left;
+      }
+      .NavBar a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 16px;
+        text-decoration: none;
+        font-family: "Arial";
+      }
+      .NavBar a:hover {
+        background-color: #111;
+      }
+      .Active {
+        background-color: #c11010
+      }
     </style>
   </head>
   <body>
     <div class="MainTitle">
       <h1>Welcome to our Website</h1>
     </div>
+    <ul class="NavBar">
+      <li><a class="Active" href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="clicker.html">Clicker</a></li>
+    </ul
     <div>
       <img src="https://puu.sh/zNNZc/e5b218aef2.gif"/>
+    </div>
   </body>
 </html>
